@@ -7,11 +7,11 @@ private ArrayList<Student> students= new ArrayList<Student>();
 private ArrayList<Team> teams= new ArrayList<Team>();
 	public Main() {
 		//ADD YOURSELF HERE with your Name, github email, and github username
-		Student nathan = new Student("Nathan Green", "github@nathangreen.com", "ndgreen");
-		nathan.canNotMeet(Day.SATURDAY);//Choose only the days you cannot meet
-		nathan.canNotMeet(Day.SUNDAY);
-		nathan.preferTimeToMeet(Time.DAY); // Choose Day/Night/Either
-		addStudent(nathan);
+		Student sean = new Student("Sean Grano", "seangrano@yahoo.com", "SeanGrano");
+		sean.canNotMeet(Day.FRIDAY);
+		sean.canNotMeet(Day.MONDAY);
+		sean.preferTimeToMeet(Time.NIGHT); // Choose Day/Night/Either
+		addStudent(sean);
 		
 		//Add yourself below here, Do not delete other Users
 		
